@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<title> China Map </title>
+	
+		<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.2.min.js"></script>
+		<script src="res/js/jquery-jvectormap-1.2.2.min.js"></script>
+		<script src="res/js/jquery-jvectormap-cn-merc-en.js"></script>
+		
+		<link rel="stylesheet" href="res/css/jquery-jvectormap-1.2.2.css" />
+	</head>
+	<body>
+		<div id="map">
+		</div>
+		
+		<script>
+		$(function(){
+			$('#map').vectorMap({
+				map: 'cn_merc_en'
+			});
+		});
+		</script>
+	
+	</body>
+</html>
